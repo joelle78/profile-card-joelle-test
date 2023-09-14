@@ -1,0 +1,65 @@
+{
+  "id": "homepage",
+  "label": "homepage",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "firstname": {
+        "type": "Text",
+        "config": {
+          "label": "firstname",
+          "placeholder": ""
+        }
+      },
+      "surname": {
+        "type": "Text",
+        "config": {
+          "label": "surname",
+          "placeholder": ""
+        }
+      },
+      "study": {
+        "type": "Text",
+        "config": {
+          "label": "study",
+          "placeholder": ""
+        }
+      },
+      "profilepicture": {
+        "type": "Image",
+        "config": {
+          "label": "profilepicture",
+          "constraint": {
+            "width": 250,
+            "height": 250
+          },
+          "thumbnails": []
+        }
+      },
+      "githubicon": {
+        "type": "Image",
+        "config": {
+          "label": "githubicon",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "rating": {
+        "type": "Image",
+        "config": {
+          "label": "rating",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}
