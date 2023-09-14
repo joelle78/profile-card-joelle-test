@@ -139,7 +139,7 @@
     /* MEDIA QUERY LAPTOP*/
     @media only screen and (min-width: 1024px)  {
         .container-profile {
-            margin-top: 10rem;
+            margin-top: 8rem;
         }
 
         .profile-card {
